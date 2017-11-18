@@ -3,10 +3,9 @@ import { Route, Redirect } from "react-router-dom";
 
 export default (props) => {
   const { auth, component: Component, redirect: pathname, ...rest } = props;
-  
+
   return (
     <Route
-      exact
       {...rest}
       render={
         props => auth ?
