@@ -10,7 +10,7 @@
   "main": "build/index.js",
   "dependencies": {
     "react": "^16.1.1",
-    "react-dom": "^16.1.1",
+    "react-dom": "^16.1.2",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
